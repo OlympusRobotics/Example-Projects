@@ -20,14 +20,9 @@ int main(){
     if i wasn't divisible by 15, though, the below code wouldn't run and it would skip to the "else if(i % 5 == 0){" line*/
     if(i % 15 == 0){
       
-      /*std::cout is the most common way to generate outputs in cpp. basically, you just type "std::cout" and put two < signs.
+      /*here i have another set of <<s after my output. this is optional, as all it does is allow me to put another statement after my output. i have std::endl,
+      which adds an enter at the end of the line. without this, all my inputs will print back to back on the same line*/
       
-      then, you type whatever you want to output. here, I'm outputting the string "fizzbuzz".
-      
-      then, i have another set of <<. this is optional, as all it does is allow me to put another statement after my output. i have std::endl,
-      which adds an enter at the end of the line. without this, all my inputs will print back to back on the same line
-      
-      lastly, I have a semicolon to complete the statement. semicolons just tell the program that the statement is over */
       std::cout << "fizzbuzz" << std::endl;
     }
     
