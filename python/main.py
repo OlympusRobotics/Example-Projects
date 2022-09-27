@@ -11,7 +11,9 @@ a_number = 10
 # this is also a number but since it has a decimal point, we call it a float
 a_float = 10.5
 # If it is an integer, its just called an integer. If it has a decimal, then its called a float
-
+#look, we can even check. Don't worry if you don't understand the 'type command'
+print(type(a_number))
+print(type(a_float))
 # Since we put the numbers into variables, we can use them later in our program
 # for example, here we can put that variable that we made on line 7 and 8 into the print command.
 # guess what this will output
