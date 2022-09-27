@@ -122,6 +122,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
 .dmypy.json
 dmypy.json
 
@@ -129,4 +130,11 @@ dmypy.json
 .pyre/
 
 # CPP stuff
+build/*
+build/
+*.o
 *.out
+*
+!*/
+!*.*
+# ignore all files without extensions
