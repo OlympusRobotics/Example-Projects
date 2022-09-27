@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace st
+using namespace std
 
 // declaring a function that will call itself! - recursion!
 // this function is pretty much calculating fibonacci from the ground up
