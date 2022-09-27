@@ -1,5 +1,4 @@
 #include <iostream> //this adds the std::cout and std::endl functionality
-#include <string> //this allows us to use strings (standard text - anything inside "quotation marks")
 
 //this is the function that gets called by the compiler (literally the main function)
 int main(){
@@ -43,6 +42,6 @@ int main(){
       std::cout << i << std::endl;
     }
     
-    return 0; //basically says that the program ran successfully
   }
+  return 0; //basically says that the program ran successfully
 }
