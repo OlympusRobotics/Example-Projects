@@ -104,6 +104,16 @@ void strategy(Game &game) {
     */
     game.printReport();
 
+    // make a variable that tells how much money you have 
+    int money = game.getMoney();
+    
+    // how to buy a factory
+    game.buyFactory();
+
+    /* TASK
+        buy a factory every turn, if you have enough money    
+    */
+
 }
 
 int main() {
@@ -111,7 +121,7 @@ int main() {
     while(1) {
         strategy(game);
         sleep(.5);
-        if game.getMoney() >= 1000000 {
+        if (game.getMoney() >= 1000000) {
             for (int i = 0; i < 10000) cout << "YOU WIN" << endl;
             break;
         }
