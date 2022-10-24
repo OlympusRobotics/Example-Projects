@@ -1,9 +1,10 @@
 #include <iostream> //this adds the std::cout and std::endl functionality
+#include <unistd.h>
 
 //this is the function that gets called by the compiler (literally the main function)
 int main(){
   
-  for(int i = 0; i < 16; i++){
+  for(int i = 1; i < 16; i++){
     /*for loops iterate through a range of numbers (or an array, but we'll get to that later)
     the first section (int i = 0) sets up the variable to be iterated. in this example, I've created an integer (whole number) i and set its initial value to 0
     
@@ -42,6 +43,8 @@ int main(){
       std::cout << i << std::endl;
     }
     
+    sleep(1);
+
   }
   return 0; //basically says that the program ran successfully
 }
