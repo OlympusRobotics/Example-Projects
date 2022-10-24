@@ -111,6 +111,10 @@ int main() {
     while(1) {
         strategy(game);
         sleep(.5);
+        if game.getMoney() >= 1000000 {
+            for (int i = 0; i < 10000) cout << "YOU WIN" << endl;
+            break;
+        }
     }
     return 0;
 }
